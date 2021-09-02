@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('') {
       steps {
-        echo 'env.BRANCH_NAME'
+        println "${env.BRANCH_NAME}"
       }
     }
 
